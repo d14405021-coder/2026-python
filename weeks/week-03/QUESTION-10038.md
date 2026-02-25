@@ -3,21 +3,20 @@
 **題名**: UVA 10038
 
 **相關連結**:
-- [UVA Online Judge](https://uva.onlinejudge.org/external/index.html)
-- [UVA 題號 10038](https://uva.onlinejudge.org/external/index.html)
-- [Yui Huang 題解](https://yuihuang.com/uva-10038/)
+- [ZeroJudge 題目頁面](https://zerojudge.tw/ShowProblem?problemid=a031)
+- [Yui Huang 題解](https://yuihuang.com/zj-a031/)
 
 ## 題目敘述
 
-[請參考上方連結查看完整題目敘述]
+[題目敘述請見上方連結]
 
 ## 輸入說明
 
-[請參考上方連結查看輸入格式說明]
+[輸入說明請見上方連結]
 
 ## 輸出說明
 
-[請參考上方連結查看輸出格式說明]
+[輸出說明請見上方連結]
 
 ---
 

@@ -3,21 +3,20 @@
 **題名**: UVA 10071
 
 **相關連結**:
-- [UVA Online Judge](https://uva.onlinejudge.org/external/index.html)
-- [UVA 題號 10071](https://uva.onlinejudge.org/external/index.html)
-- [Yui Huang 題解](https://yuihuang.com/uva-10071/)
+- [ZeroJudge 題目頁面](https://zerojudge.tw/ShowProblem?problemid=a064)
+- [Yui Huang 題解](https://yuihuang.com/zj-a064/)
 
 ## 題目敘述
 
-[請參考上方連結查看完整題目敘述]
+You are given a set S of integers between -30000 and 30000 (inclusive).Find the total number of sextuplesthat satisfy:
 
 ## 輸入說明
 
-[請參考上方連結查看輸入格式說明]
+The first line contains integer N (1 ≤ N ≤ 100), the size of a set S.Elements of S are given in the next N lines, one integer per line. Given numbers will be distinct.
 
 ## 輸出說明
 
-[請參考上方連結查看輸出格式說明]
+Output the total number of plausible sextuples.
 
 ---
 

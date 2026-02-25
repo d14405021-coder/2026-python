@@ -3,21 +3,20 @@
 **題名**: UVA 10922
 
 **相關連結**:
-- [UVA Online Judge](https://uva.onlinejudge.org/external/index.html)
-- [UVA 題號 10922](https://uva.onlinejudge.org/external/index.html)
-- [Yui Huang 題解](https://yuihuang.com/uva-10922/)
+- [ZeroJudge 題目頁面](https://zerojudge.tw/ShowProblem?problemid=a915)
+- [Yui Huang 題解](https://yuihuang.com/zj-a915/)
 
 ## 題目敘述
 
-[請參考上方連結查看完整題目敘述]
+给你n个二维平面上的点，要求你把他们按照以x轴坐标为第一关键字，y轴坐标为第二关键字的方式从小到大来进行排序。
 
 ## 輸入說明
 
-[請參考上方連結查看輸入格式說明]
+第一行输入一个正整数n。接下来n行，第i行有两个个以空格隔开的正整数x[i]和y[i]，表示第i个点为(x[i],y[i])。
 
 ## 輸出說明
 
-[請參考上方連結查看輸出格式說明]
+输出n行，第i行表示排序好后第i个点的坐标。
 
 ---
 

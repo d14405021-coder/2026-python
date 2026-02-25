@@ -3,21 +3,20 @@
 **題名**: UVA 10008
 
 **相關連結**:
-- [UVA Online Judge](https://uva.onlinejudge.org/external/index.html)
-- [UVA 題號 10008](https://uva.onlinejudge.org/external/index.html)
-- [Yui Huang 題解](https://yuihuang.com/uva-10008/)
+- [ZeroJudge 題目頁面](https://zerojudge.tw/ShowProblem?problemid=a001)
+- [Yui Huang 題解](https://yuihuang.com/zj-a001/)
 
 ## 題目敘述
 
-[請參考上方連結查看完整題目敘述]
+學習所有程式語言的第一個練習題請寫一個程式，可以讀入指定的字串，並且輸出指定的字串。比如：輸入字串 "world", 則請輸出 "hello, world"
 
 ## 輸入說明
 
-[請參考上方連結查看輸入格式說明]
+輸入總共一行，內含一組文字
 
 ## 輸出說明
 
-[請參考上方連結查看輸出格式說明]
+輸出題目指定的文字。
 
 ---
 

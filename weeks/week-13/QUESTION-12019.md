@@ -3,21 +3,20 @@
 **題名**: UVA 12019
 
 **相關連結**:
-- [UVA Online Judge](https://uva.onlinejudge.org/external/index.html)
-- [UVA 題號 12019](https://uva.onlinejudge.org/external/index.html)
-- [Yui Huang 題解](https://yuihuang.com/uva-12019/)
+- [ZeroJudge 題目頁面](https://zerojudge.tw/ShowProblem?problemid=c012)
+- [Yui Huang 題解](https://yuihuang.com/zj-c012/)
 
 ## 題目敘述
 
-[請參考上方連結查看完整題目敘述]
+給你一列文字，請你找出各字元出現的次數。
 
 ## 輸入說明
 
-[請參考上方連結查看輸入格式說明]
+每筆測試資料一列。每列最大長度為1000。
 
 ## 輸出說明
 
-[請參考上方連結查看輸出格式說明]
+對每一列輸入，請輸出各字元的ASCII值及其出現的次數。請根據出現的次數由小到大輸出。如果有2個以上的字元有相同的次數，則ASCII值較大的先輸出。 測試資料間請空一列，參考Sample Output
 
 ---
 

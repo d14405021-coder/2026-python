@@ -3,21 +3,20 @@
 **題名**: UVA 11349
 
 **相關連結**:
-- [UVA Online Judge](https://uva.onlinejudge.org/external/index.html)
-- [UVA 題號 11349](https://uva.onlinejudge.org/external/index.html)
-- [Yui Huang 題解](https://yuihuang.com/uva-11349/)
+- [ZeroJudge 題目頁面](https://zerojudge.tw/ShowProblem?problemid=b342)
+- [Yui Huang 題解](https://yuihuang.com/zj-b342/)
 
 ## 題目敘述
 
-[請參考上方連結查看完整題目敘述]
+給一個等高線二維地圖，每一個等高線由一個平行兩軸的矩形構成，有 $N$ 個矩形、 $M$ 個地點，輸出每一個地點的所在位置高度，以及當前的所在矩形編號。
 
 ## 輸入說明
 
-[請參考上方連結查看輸入格式說明]
+有多組測資，每一組第一行會有一個整數 $N$，表示接下來有多少個等高線。接下來會有 $N$ 行，每行上會有四個整數 $(lx, ly, rx, ry)$。接著一行一個整數 $M$，表示接下來有 $M$ 個點詢問，接下來會有 $M$ 行 $(x, y)$。$1 \le N, M \le 32767$$0 \le lx < rx \le 1,000,000, 0 \le ly < ry \le 1,000,000$$-10,000,000 \le x, y \le 10,000,000$
 
 ## 輸出說明
 
-[請參考上方連結查看輸出格式說明]
+每組第一行，按照輸入順序輸出每條等高線高度，接著輸出 $M$ 行詢問所在的等高線編號。
 
 ---
 

@@ -3,21 +3,20 @@
 **題名**: UVA 10222
 
 **相關連結**:
-- [UVA Online Judge](https://uva.onlinejudge.org/external/index.html)
-- [UVA 題號 10222](https://uva.onlinejudge.org/external/index.html)
-- [Yui Huang 題解](https://yuihuang.com/uva-10222/)
+- [ZeroJudge 題目頁面](https://zerojudge.tw/ShowProblem?problemid=a215)
+- [Yui Huang 題解](https://yuihuang.com/zj-a215/)
 
 ## 題目敘述
 
-[請參考上方連結查看完整題目敘述]
+明明是一個愛數（ㄕㄨˇ）數（ㄕㄨˋ）的好學生，這天媽媽叫他從 n 開始數，下一個數字是 n+1，再下一個數字是 n+2，以此類推。媽媽想知道，明明數了幾個數字之後，他數過的這些數字的總和會超過 m。請幫助明明的媽媽吧。
 
 ## 輸入說明
 
-[請參考上方連結查看輸入格式說明]
+輸入以 EOF 結束。每一筆測試資料有兩個數字，分別為 n 和 m，其中 m-n 不會超過 10^5。
 
 ## 輸出說明
 
-[請參考上方連結查看輸出格式說明]
+輸出如題目敘述。
 
 ---
 

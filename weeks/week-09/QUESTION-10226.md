@@ -3,21 +3,20 @@
 **題名**: UVA 10226
 
 **相關連結**:
-- [UVA Online Judge](https://uva.onlinejudge.org/external/index.html)
-- [UVA 題號 10226](https://uva.onlinejudge.org/external/index.html)
-- [Yui Huang 題解](https://yuihuang.com/uva-10226/)
+- [ZeroJudge 題目頁面](https://zerojudge.tw/ShowProblem?problemid=a219)
+- [Yui Huang 題解](https://yuihuang.com/zj-a219/)
 
 ## 題目敘述
 
-[請參考上方連結查看完整題目敘述]
+小光的 DFS 剪枝技巧, 在這個暑假進步了一些些, 但是仍然無法通過 DP 的噩夢,現在給你 N 個人, 編號分別是 A, B, ... Z, 接著總是會有人不想排哪裡,請你把所有可能列出來, 但是輸出檔隨便生一生就爆表了 !因此希望你如果新的排列跟上次一樣的部分就不輸出了, 僅僅輸出不同的部分
 
 ## 輸入說明
 
-[請參考上方連結查看輸入格式說明]
+有多筆測資, 每筆第一行 有一個正整數 N (1 ≦ N ≦ 15),接下來會有 N 行, 第 N 行代表 第 N 個人不想排的位置, 以 0 代表結束
 
 ## 輸出說明
 
-[請參考上方連結查看輸出格式說明]
+請把所有可能列出來(依照字典順序), 跟上次一樣的部分就不輸出, 僅僅輸出不同的部分
 
 ---
 

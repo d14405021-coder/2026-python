@@ -3,21 +3,20 @@
 **題名**: UVA 10041
 
 **相關連結**:
-- [UVA Online Judge](https://uva.onlinejudge.org/external/index.html)
-- [UVA 題號 10041](https://uva.onlinejudge.org/external/index.html)
-- [Yui Huang 題解](https://yuihuang.com/uva-10041/)
+- [ZeroJudge 題目頁面](https://zerojudge.tw/ShowProblem?problemid=a034)
+- [Yui Huang 題解](https://yuihuang.com/zj-a034/)
 
 ## 題目敘述
 
-[請參考上方連結查看完整題目敘述]
+還記得計算機概論嗎？還記得二進位嗎？現在我們來計算一下將一個10進位的數字換成二進位數字
 
 ## 輸入說明
 
-[請參考上方連結查看輸入格式說明]
+輸入若干行直到 EOF 為止。每一行包含一個十進位的整數
 
 ## 輸出說明
 
-[請參考上方連結查看輸出格式說明]
+針對每一行的整數輸出其二進位制的結果
 
 ---
 
