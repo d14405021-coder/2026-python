@@ -10,7 +10,7 @@
 ## 本週操作重點
 
 - 熟悉 `origin` / `upstream` 的概念與同步流程
-- 練習建立 `submit/week-02` 分支
+- 練習建立 `submit/week-02-<student-id>` 分支
 - 練習在 `weeks/week-02/solutions/<student-id>/` 內提交檔案
 - 練習建立 PR 並使用規定格式標題
 
@@ -41,7 +41,7 @@
 ### 提交規範
 
 - 目錄：`weeks/week-02/solutions/<student-id>/`
-- 分支：`submit/week-02`
+- 分支：`submit/week-02-<student-id>`
 - PR 標題：`Week 02 - <student-id> - <name>`
 ---
 
