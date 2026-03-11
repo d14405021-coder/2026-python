@@ -1,0 +1,12 @@
+Question: UVA 272
+Test File: test_272_simple.py
+
+Result:
+- Test 1 ... PASS
+- Test 2 ... PASS
+- Test 3 ... PASS
+- Test 4 ... PASS
+- Test 5 ... PASS
+
+Summary:
+Total: 5 pass, 0 fail

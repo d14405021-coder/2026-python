@@ -1,0 +1,12 @@
+Question: UVA 490
+Test File: test_question_490-easy.py
+
+Result:
+- test_basic: PASS
+- test_single: PASS
+- test_empty: PASS
+- test_diff_len: PASS
+- test_spaces: PASS
+
+Summary:
+passed 5/5

@@ -1,0 +1,11 @@
+Question: UVA 100
+Test File: test_question_100.py
+
+Result:
+- test_calculate_cycle_length ... ok
+- test_edge_cases ... ok
+- test_find_max_cycle_length ... ok
+
+Summary:
+Ran 3 tests in 0.001s
+OK
