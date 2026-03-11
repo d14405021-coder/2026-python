@@ -26,6 +26,7 @@ weeks/week-03/solutions/<student-id>/
 ├── robot_core.py                 # 核心邏輯（不依賴 pygame，便於測試）
 ├── assets/
 │   └── gameplay.png              # 你實際操作遊戲的截圖（必交）
+│   └── replay.gif                # play 過程重播檔（建議）
 ├── tests/
 │   ├── test_robot_core.py
 │   └── test_robot_scent.py
@@ -96,12 +97,14 @@ weeks/week-03/solutions/<student-id>/
 - 可透過鍵盤輸入 `L/R/F` 執行一步
 - 可重置新機器人（保留 `scent`）
 - 可清除 `scent`
+- 可重播 play 過程（例如：匯出 `replay.gif` 或提供回放機制）
 
 建議操作鍵：
 
 - `L` / `R` / `F`
 - `N`：新機器人
 - `C`：清除 scent
+- `G`：輸出回放 GIF（建議）
 - `ESC`：離開
 
 ### 遊玩證明截圖（必交）
@@ -170,6 +173,8 @@ python -m unittest discover -s tests -p "test_*.py" -v
 
 ## README.md 內容要求
 
+![img](imgs/replay.gif)
+
 在 `weeks/week-03/solutions/<student-id>/README.md` 至少包含：
 
 1. 功能清單（你實作了哪些互動功能）
@@ -178,6 +183,7 @@ python -m unittest discover -s tests -p "test_*.py" -v
 4. 你的資料結構選擇理由（至少 3 點）
 5. 你踩到的一個 bug 與修正方式
 6. 內嵌遊玩截圖（`assets/gameplay.png`）
+7. 重播方式說明（如何產生與檢視 `assets/replay.gif` 或等效回放）
 
 ---
 
@@ -218,6 +224,11 @@ python -m unittest discover -s tests -p "test_*.py" -v
 - 測試完整度（數量與覆蓋面）：30 分
 - 程式結構與可讀性（模組分離、命名、註解）：20 分
 - 互動與視覺呈現（pygame MVP 完整度）：10 分
+
+### 加分項目（最多 +10 分）
+
+- 中文呈現完整（介面文字、狀態訊息、操作提示具一致性）：+5 分
+- 額外提供 10x10 字串矩陣呈現，且可觀察容器狀態（如 `scent` 內容或矩陣快照）：+5 分
 
 扣分項目：
 

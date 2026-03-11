@@ -1,15 +1,10 @@
-# Week 02：Visual Studio Code GitHub 操作流程
+# Visual Studio Code GitHub 操作流程
 
-> 本課程採 **不使用 GitHub Classroom** 的流程：
-> `Template repo + upstream 同步 + 固定作業路徑 + 每週 branch + PR`
-
----
-
-## A. 本週目標（Week 02）
+## A. 每週目標（Week #）
 
 1. 在 VS Code 完成教材同步
-2. 建立 `submit/week-02-<student-id>` 分支
-3. 只在 `weeks/week-02/solutions/<student-id>/` 放作業
+2. 建立 `submit/week-#-<student-id>` 分支
+3. 只在 `weeks/week-#/solutions/<student-id>/` 放作業
 4. 由 VS Code 或 GitHub 建立 PR
 
 ---
@@ -48,7 +43,7 @@ git remote -v
 
 ---
 
-## D. Week 02 實作流程（VS Code 版）
+## D. Week # 實作流程（VS Code 版）
 
 ### Step 1：同步教材到 `main`
 
@@ -69,12 +64,12 @@ git push origin main
 
 - 點底部左下角分支名稱
 - `Create new branch...`
-- 輸入：`submit/week-02-<student-id>`
+- 輸入：`submit/week-#-<student-id>`
 
 方式二（Terminal）：
 
 ```bash
-git checkout -b submit/week-02-<student-id>
+git checkout -b submit/week-#-<student-id>
 ```
 
 ### Step 3：建立本週作業目錄
@@ -82,7 +77,7 @@ git checkout -b submit/week-02-<student-id>
 在 Explorer 建立資料夾：
 
 ```text
-weeks/week-02/solutions/<student-id>/
+weeks/week-#/solutions/<student-id>/
 ```
 
 建議最少兩個檔案：
@@ -93,8 +88,8 @@ weeks/week-02/solutions/<student-id>/
 ### Step 4：在 Source Control 提交
 
 1. 到 `Source Control` 檢查變更檔案
-2. 確認只有 `weeks/week-02/solutions/<student-id>/...`
-3. 在訊息欄輸入：`Submit week-02`
+2. 確認只有 `weeks/week-#/solutions/<student-id>/...`
+3. 在訊息欄輸入：`Submit week-#`
 4. 按 `Commit`
 5. 按 `Publish Branch` 或 `Push`
 
@@ -115,18 +110,18 @@ git push -u origin submit/week-02-<student-id>
 方式二（GitHub 網站）：
 
 - base：`main`
-- compare：`submit/week-02-<student-id>`
+- compare：`submit/week-#-<student-id>`
 
 PR 標題格式：
 
 ```text
-Week 02 - <student-id> - <name>
+Week # - <student-id> - <name>
 ```
 
 範例：
 
 ```text
-Week 02 - 411234001 - 王小明
+Week # - 411234001 - 王小明
 ```
 
 ---
@@ -169,9 +164,9 @@ weeks/week-02/solutions/<student-id>/
 ## G. 提交前檢查清單
 
 - [ ] 已同步 `upstream/main`
-- [ ] 當前分支是 `submit/week-02-<student-id>`
-- [ ] 只改到 `weeks/week-02/solutions/<student-id>/`
-- [ ] PR 標題符合格式
+- [ ] 當前分支是 `submit/week-#-<student-id>`
+- [ ] 只改到 `weeks/week-#/solutions/<student-id>/`
+- [ ] PR 標題符合格式 -> :star: 回家作業請加上 "-HW-" 以示別
 - [ ] PR 描述已填完整
 
 ---
