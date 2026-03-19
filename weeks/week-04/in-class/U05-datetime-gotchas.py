@@ -13,13 +13,23 @@ except TypeError as e:
     print(f"TypeError: {e}")  # 'months' is an invalid keyword argument
 
 
-# 正確做法：用 calendar 取得該月天數
+# 正確做法：用 calendar 取得目標月份天數，並將日期 clamp 到該月最後一天
 def add_one_month(dt: datetime) -> datetime:
-    _, days = calendar.monthrange(dt.year, dt.month)
-    return dt + timedelta(days=days)
+    # 計算目標的年與月
+    year = dt.year
+    month = dt.month + 1
+    if month == 13:
+        year += 1
+        month = 1
+
+    # 取得目標月份的天數，並把日期限制在該月最後一天
+    _, days_in_target_month = calendar.monthrange(year, month)
+    day = min(dt.day, days_in_target_month)
+
+    return dt.replace(year=year, month=month, day=day)
 
 
-print(add_one_month(datetime(2012, 1, 31)))  # 2012-03-02
+print(add_one_month(datetime(2012, 1, 31)))  # 2012-02-29
 print(add_one_month(datetime(2012, 9, 23)))  # 2012-10-23
 
 # ── strptime 效能問題（3.15）─────────────────────────
